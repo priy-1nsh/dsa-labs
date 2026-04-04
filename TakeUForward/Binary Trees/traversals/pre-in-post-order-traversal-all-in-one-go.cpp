@@ -47,7 +47,7 @@ int main() {
     root->right = new TreeNode(3);
     root->left->left = new TreeNode(4);
     root->left->right = new TreeNode(5);
-    vector<vector<int>> traversals = allTraversals(root);
+    vector<vector<int>> traversals = it allTraversals(root);
 
     // Print Preorder traversal
     cout << "Preorder traversal: ";
